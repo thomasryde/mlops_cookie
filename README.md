@@ -14,7 +14,7 @@ python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pt
 python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth" -train=1
 ```
 
-Generate procesed dataL
+Generate procesed data:
 
 ```{python}
 python "src/data/make_dataset.py" "data/raw" "data/processed"
