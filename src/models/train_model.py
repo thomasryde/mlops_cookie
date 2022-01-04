@@ -12,10 +12,6 @@ import sys
 sys.path.append('src/data')
 from make_dataset import CustomDataset
 
-# Current Directory: root
-# Training Command: python "src/models/train_model.py"
-# Training Command with options: python "src/models/train_model.py" -epochs=20 -lr=0.005
-
 class Train(object):
     """ Helper class that will help launch class methods as commands
         from a single script

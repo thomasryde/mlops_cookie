@@ -8,10 +8,6 @@ import sys
 sys.path.append('src/data')
 from make_dataset import CustomDataset
 
-# Current Directory: root
-# Evaluate Command: python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth"
-# Evaluate Command with options: python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth" -train=1
-
 class Evaluate(object):
     """ Helper class that will help launch class methods as commands
         from a single script
