@@ -4,7 +4,7 @@ import sys
 from torch import load
 from torch.utils.data import DataLoader
 from model import MyAwesomeModel, val
-import sys
+
 sys.path.append('src/data')
 from make_dataset import CustomDataset
 

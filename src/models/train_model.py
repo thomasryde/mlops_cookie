@@ -1,14 +1,12 @@
 import argparse
 import sys
 
-from torch import load, save
-from model import MyAwesomeModel
+from torch import load, save, nn
 from torch.optim import Adam
-from torch import nn
-from argparse import ArgumentParser
-
 from torch.utils.data import DataLoader
-import sys
+
+from model import MyAwesomeModel
+
 sys.path.append('src/data')
 from make_dataset import CustomDataset
 
