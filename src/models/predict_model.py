@@ -3,7 +3,7 @@ import sys
 
 from torch import load
 from torch.utils.data import DataLoader
-from model import MyAwesomeModel, val
+from model import MyAwesomeModel, MyAwesomeModel_2, val
 
 sys.path.append('src/data')
 from make_dataset import CustomDataset
@@ -28,9 +28,9 @@ class Evaluate(object):
         #Load test data
         data_processed = load(args.data)
         if args.train == 0:
-            evaluate_set = DataLoader(CustomDataset(data_processed["X_test"], data_processed["y_test"]), batch_size=64, shuffle=True)
+            evaluate_set = DataLoader(CustomDataset(data_processed["X_test"], data_processed["y_test"]), batch_size=128, shuffle=True)
         elif args.train == 1:
-            evaluate_set = DataLoader(CustomDataset(data_processed["X_train"], data_processed["y_train"]), batch_size=64, shuffle=True)
+            evaluate_set = DataLoader(CustomDataset(data_processed["X_train"], data_processed["y_train"]), batch_size=128, shuffle=True)
         else:
             print("An error in the train argument occured")
 

@@ -7,6 +7,7 @@ from dotenv import find_dotenv, load_dotenv
 import numpy as np
 from glob import glob
 from torch.utils.data import DataLoader, Dataset
+from torch.nn.functional import normalize
 import torch
 
 @click.command()
@@ -36,7 +37,11 @@ def main(input_filepath, output_filepath):
                 y_train = y
             else:
                 X_train = np.vstack((X_train, X))
-                y_train = np.hstack([y_train, y])
+                y_train = np.hstack([y_train,y])
+
+    #Normalization
+    X_train = (X_train - np.mean(X_train))/np.std(X_train)
+    X_test = (X_test - np.mean(X_test))/np.std(X_test)
 
     pre_processed_data = {"X_train": X_train, "y_train": y_train, "X_test": X_test, "y_test": y_test}
     torch.save(pre_processed_data,pre_processed_data_file)

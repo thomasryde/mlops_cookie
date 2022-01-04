@@ -13,3 +13,9 @@ Evaluate commands on test (default) or train:
 python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth"
 python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth" -train=1
 ```
+
+Generate procesed dataL
+
+```{python}
+python "src/data/make_dataset.py" "data/raw" "data/processed"
+```
