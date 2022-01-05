@@ -1,0 +1,8 @@
+#config_test.yaml
+
+hyperparameters:
+    train: 0
+
+directories:
+    preprocessed_data: "/data/processed/pre_processed_data.pth"
+    model: "/src/models/model.pth"

@@ -1,17 +1,16 @@
 Make sure to be in the root directory.
 
-Training commands with and without epochs and learning rate:
+Training commands with and without custom epochs and learning rate:
 
 ```{python}
 python "src/models/train_model.py"
-python "src/models/train_model.py" -epochs=20 -lr=0.005
+python "src/models/train_model.py" hyperparameters.epochs=20 hyperparameters.learning_rate=0.005
 ```
 
 Evaluate commands on test (default) or train:
 
 ```{python}
-python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth"
-python "src/models/predict_model.py" -data="data/processed/pre_processed_data.pth" -model_weights="src/models/model.pth" -train=1
+python "src/models/predict_model.py" hyperparameters.train=1
 ```
 
 Generate procesed data:
