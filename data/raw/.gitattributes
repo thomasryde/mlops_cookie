@@ -1,6 +1,0 @@
-test.npz filter=lfs diff=lfs merge=lfs -text
-train_0.npz filter=lfs diff=lfs merge=lfs -text
-train_1.npz filter=lfs diff=lfs merge=lfs -text
-train_2.npz filter=lfs diff=lfs merge=lfs -text
-train_3.npz filter=lfs diff=lfs merge=lfs -text
-train_4.npz filter=lfs diff=lfs merge=lfs -text
