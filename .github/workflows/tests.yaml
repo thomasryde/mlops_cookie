@@ -29,4 +29,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+        git lfs pull
         pytest -v
