@@ -31,7 +31,3 @@ jobs:
         pip install pytest
         git lfs pull
         pytest -v
-    - name: Build
-        run: npm build
-    - name: Test
-        run: npm test
