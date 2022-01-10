@@ -20,7 +20,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-        lfs: 'true'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -29,5 +28,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        git lfs pull
+        git pull
         pytest -v
