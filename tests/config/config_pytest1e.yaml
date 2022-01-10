@@ -1,0 +1,9 @@
+#config_train.yaml
+hyperparameters:
+    batch_size: 128
+    learning_rate: 1e-3
+    epochs: 1
+
+directories:
+    preprocessed_data: "/data/processed/pre_processed_data.pth"
+    model: "/src/models/model.pth" 

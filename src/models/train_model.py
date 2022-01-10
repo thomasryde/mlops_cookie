@@ -29,6 +29,7 @@ def train(cfg):
 
     #Load Model
     model = MyAwesomeModel()
+    init_model = model
 
     #Optimization Settings
     optimizer = Adam(model.parameters(), lr=hparams.learning_rate)
@@ -51,6 +52,9 @@ def train(cfg):
     save(model.state_dict(), org_cwd + directory.model)
     save(model.state_dict(), f"{os.getcwd()}/model.pth")
 
+    if model.state_dict() == init_model.state_dict():
+        raise ValueError('Model is not trained')
+
     #Make plot of learning curve
     plt.plot(range(hparams.epochs), running_loss) 
     plt.xlabel('Epoch')
@@ -60,4 +64,3 @@ def train(cfg):
  
 if __name__ == '__main__':
     train()
-
