@@ -34,5 +34,4 @@ jobs:
         credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
     - name: Pull data/cached steps
       run: |
-        dvc update *.dvc
         dvc pull
