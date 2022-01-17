@@ -1,2 +1,0 @@
-. filter=lfs diff=lfs merge=lfs -text
-pre_processed_data.pth filter=lfs diff=lfs merge=lfs -text
