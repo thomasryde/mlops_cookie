@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-01-06T11:52:24.936000",
+    "startedAt": "2022-01-06T11:52:21.857790",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/thomasryde/Documents/University/Kandidat/3. Semester/Machine Learning Operations/dtu_mlops/s4_debugging_and_logging/exercise_files/vae_mnist_working.py",
+    "codePath": "s4_debugging_and_logging/exercise_files/vae_mnist_working.py",
+    "git": {
+        "remote": "https://github.com/SkafteNicki/dtu_mlops",
+        "commit": "ab446fc53892cf4cbeabb075b425fc9f9e387b58"
+    },
+    "email": "thomas.ryde@gmail.com",
+    "root": "/Users/thomasryde/Documents/University/Kandidat/3. Semester/Machine Learning Operations/dtu_mlops",
+    "host": "Thomass-MacBook-Air.local",
+    "username": "thomasryde",
+    "executable": "/Users/thomasryde/opt/anaconda3/envs/myenv/bin/python"
+}
