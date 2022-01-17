@@ -27,7 +27,7 @@ Exercises M9-M10: We used hydra. Dockerfile can be seen in repo. Config file can
 
 Exercises M11-M13: In folder "M11-M13". Using WANDB and profiling to find bugs. Found a bug with extra bug with randn/rand.
 
-Exercises M15-M16: One can see in the git repo that we used CI/CD.
+Exercises M15-M16: One can see in the git repo that we used CI/CD. At the moment they fail because we ran out of space on our Github LFS storage. We use DVC for our project and dont want to spend time on fixing this.
 
 Exercise M17-M18: Hard to give evidence that we did this. This was done on our GCP users. Changed DVC storage to google cloud from google drive.
 
