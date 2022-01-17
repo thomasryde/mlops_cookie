@@ -23,3 +23,5 @@ Exercises M1-M4 in folder "M1-M4".
 
 Exercises M5-M8: Git & Cookiecutter can be seen using this repo. DVC: We used google drive but later changed to google cloud. DVC was used in project.
 
+Exercises M9-M10: We used hydra. Dockerfile can be seen in repo. Config file can be seen in "src/models/config".
+
