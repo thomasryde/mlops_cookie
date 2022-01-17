@@ -29,5 +29,5 @@ jobs:
       run: |
         pip install pytest
         pip install dvc
-        dvc pull
+        dvc pull 
         pytest -v
