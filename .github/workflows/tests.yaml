@@ -28,6 +28,12 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pip install dvc
-        dvc pull 
         pytest -v
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v0'
+      with:
+        credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
+    - name: Pull data/cached steps
+      run: |
+        dvc update data/*.dvc
+        dvc pull
