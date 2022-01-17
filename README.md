@@ -18,3 +18,7 @@ Generate procesed data:
 ```{python}
 python "src/data/make_dataset.py" "data/raw" "data/processed"
 ```
+
+Exercises M1-M4 in folder "M1-M4".
+Exercises M5-M8: Git & Cookiecutter can be seen using this repo. DVC: We used google drive but later changed to google cloud. DVC was used in project.
+
