@@ -1,3 +1,5 @@
+This github repos shows the exercises done in the course 02476 Machine Learning Operations at DTU. Exercises were done by Lucas Sørensen, Mikkel Kofoed Pedersen, Nicolai Pleth and Thomas Ryde.
+
 Make sure to be in the root directory.
 
 Training commands with and without custom epochs and learning rate:
