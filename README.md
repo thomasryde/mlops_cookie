@@ -1,4 +1,4 @@
-This github repos shows the exercises done in the course 02476 Machine Learning Operations at DTU. Exercises were done by Lucas Sørensen (s174461)), Mikkel Kofoed Pedersen (s174485), Nicolai Pleth (s174503) and Thomas Ryde (163955).
+This github repos shows the exercises done in the course 02476 Machine Learning Operations at DTU. Exercises were done by Lucas Sørensen (s174461), Mikkel Kofoed Pedersen (s174485), Nicolai Pleth (s174503) and Thomas Ryde (163955).
 
 Make sure to be in the root directory.
 
